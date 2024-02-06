@@ -1,0 +1,34 @@
+.ArticleCard {
+    padding: 0 20px;
+    margin-bottom: 50px;
+
+    &__title {
+        font-size: 32px;
+        font-weight: 700;
+        padding: 30px 0 0 0;
+        margin: 0 0 30px 0;
+        text-align: center;
+    }
+
+    &__description {
+        font-size: 18px;
+        margin: 0 0 20px 0;
+    }
+
+    &__prop {
+        margin: 0px 0 30px 0;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 18px;
+    }
+
+    &__label {
+        font-size: 22px;
+        padding: 0 15px 0 0;
+        font-weight: bold;
+    }
+
+    &__value {
+        font-size: 22px;
+    }
+}

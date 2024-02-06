@@ -1,0 +1,29 @@
+.Header {
+    &__cart {
+        position: relative;
+        margin: 0 10px;
+        color: white;
+        transition: color 0.3s;
+
+        &:hover {
+            color: grey;
+        }
+
+        &-count {
+            position: absolute;
+            top: -8px;
+            right: -10px;
+            border-radius: 50%;
+            background: #798fff;
+            color: #fff;
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        svg {
+            display: inline;
+        }
+    }
+}

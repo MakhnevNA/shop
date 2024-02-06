@@ -1,0 +1,16 @@
+.Main {
+    padding: 0 68px;
+
+    &__content {
+        margin-top: 20px;
+        padding: 0 0 39px 0;
+        min-height: calc(100vh - 250px);
+    }
+}
+
+.flexStyle {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

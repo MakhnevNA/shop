@@ -1,0 +1,23 @@
+.BasketTotal {
+    border-top: 2px solid black;
+    text-align: right;
+    padding: 20px;
+
+    &__desc {
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0 165px 0 0;
+
+        button {
+            margin-right: 150px;
+        }
+    }
+
+    &__count {
+        white-space: nowrap;
+        margin-right: 130px;
+    }
+
+    &__total {
+    }
+}

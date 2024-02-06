@@ -1,0 +1,17 @@
+.EmptyBasket {
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+
+    &__text {
+        margin-bottom: 20px;
+    }
+
+    &__toCatalog {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,28 @@
+.UserCard {
+    padding: 0 20px;
+
+    &__title {
+        font-size: 32px;
+        font-weight: 700;
+        padding: 20px 0 0 0;
+        margin: 0 0 30px 0;
+        text-align: center;
+    }
+
+    &__prop {
+        margin: 20px 0 30px 0;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 18px;
+    }
+
+    &__label {
+        font-size: 22px;
+        padding-right: 15px;
+        font-weight: bold;
+    }
+
+    &__value {
+        font-size: 22px;
+    }
+}

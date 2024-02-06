@@ -1,0 +1,16 @@
+.CongrForRegistr {
+    // .CongrForRegistr__title
+
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    // .CongrForRegistr__link
+
+    &__link {
+        display: flex;
+        justify-content: center;
+    }
+}

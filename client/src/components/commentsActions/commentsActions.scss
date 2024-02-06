@@ -1,0 +1,20 @@
+.Comments {
+    // .Comments__actions
+
+    &__actions {
+        margin: 30px 0 30px 0;
+        font-size: 16px;
+        a {
+            color: #0087e9;
+            font-size: 16px;
+            text-decoration-line: underline;
+        }
+
+        button {
+            color: #666;
+            font-size: 16px;
+            text-decoration-line: underline;
+            background-color: transparent;
+        }
+    }
+}
